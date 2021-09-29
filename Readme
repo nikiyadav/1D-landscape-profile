@@ -1,0 +1,17 @@
+Input: Join Tree generated using code available at https://github.com/harishd10/contour-tree
+	Two files are taken: model.rg.txt and model.part.txt
+
+How to run:
+1. command to run createjson.py
+	python createjson.py model.off model.rg.txt model.part.txt > model.json
+
+2. put this JSON file in data folder
+
+3. command to generate landscape profile
+	- run a http server on local host
+		for example using python:
+		python -m SimpleHTTPServer 8000
+		on same directory as code
+	- now open browser, enter address:
+		localhost:8000
+
