@@ -1,3 +1,6 @@
+AIM : To visualize and analyse high dimensional scientific data using topological
+1D landscape profile.
+
 Input: Join Tree generated using code available at https://github.com/harishd10/contour-tree
 	Two files are taken: model.rg.txt and model.part.txt
 
@@ -15,3 +18,6 @@ How to run:
 	- now open browser, enter address:
 		localhost:8000
 
+REFERENCE PAPER : Patrick Oesterling, Christian Heine, Gunther H. Weber,
+Gerik Scheuermann, “Visualizing nD point clouds as topological landscape profiles
+to guide local data analysis”, 2013
